@@ -1,0 +1,111 @@
+body{
+  background-color: rgb(33, 32, 32);
+  text-decoration: none;
+  scroll-behavior: smooth;
+  
+}
+.App{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  margin-top: 8%;
+  animation: fadeIn 5s;
+}
+.nav-cont{
+  display: flex;
+  gap:20px;
+  border: 2px solid gray;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+.nav-cont li{
+  padding: 5px 10px;
+}
+.nav-cont{
+  display: flex;
+  gap:20px;
+  border: 2px solid gray;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+
+  
+  
+ 
+  
+
+.nav-cont .active{
+  background: grey;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+.nav-cont .active1{
+  background: grey;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+.about{
+  background-image: url("../src/assets/section-bg.png");
+  animation: fadeIn 5s;
+}
+
+.privacy{
+  background-image: url("../src/assets/hero-shape.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeIn 5s;
+
+}
+.nav-menu li{
+  cursor: pointer;
+  padding: 10px;
+}
+.nav-menu .active{
+  background: grey;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}
+.contact{
+  background-image: url("../src/assets/section-bg.png");
+  animation: fadeIn 5s;
+
+
+}
+
+.header{
+  animation: fadeIn 5s;
+}
+.grid{
+  animation: fadeIn 8s;
+}
+.pricing{
+  animation: fadeIn 5s;
+}
+
+
+@keyframes fadeIn {
+
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
+}
+
+.submit{
+  background-image: url("../src/assets/section-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+
